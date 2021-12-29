@@ -24,5 +24,3 @@ Get-ChildItem -Recurse -Directory "Path_to_GCI" | Export-Csv "Path_to_file.csv"
 
 
 
-
-
