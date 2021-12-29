@@ -1,3 +1,4 @@
+#Run if not already installed
 Import-Module ActiveDirectory
 
 #Get members of AD group piped to csv
