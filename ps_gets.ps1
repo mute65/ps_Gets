@@ -1,4 +1,4 @@
-
+Import-Module ActiveDirectory
 
 #Get members of AD group piped to csv
 Get-ADGroupMember -Identity "ADGROUPNAME" | Export-Csv "Path_to_file.csv"
@@ -20,6 +20,8 @@ Get-ADOrganizationalUnit -Filter * -SearchBase "DN OF OU" | select Name,Distingu
 
 #Get all files in a directory piped to CSV
 Get-ChildItem -Recurse -Directory "Path_to_GCI" | Export-Csv "Path_to_file.csv"
+
+
 
 
 
