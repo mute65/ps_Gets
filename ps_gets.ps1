@@ -1,3 +1,8 @@
+<# 
+    A simple set of get commands to query Active Directory and provide output
+    
+#>
+
 #Run if not already installed
 Import-Module ActiveDirectory
 
